@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-color: greenyellow !important;
+}
+
+#banner {         
+  background: url("sel.jpg");
+  height: 550px;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+}
+
+.ban-ner {
+  margin-top: 50px;
+}
+
+.banner-text {
+  text-align: center;
+  font: italic 25px arial;
+}
+
+.banner-text h1 {
+  font-family: 'Caveat', cursive;
+  text-align: center;
+  font: italic 25px arial;
+}
+
+.banner-text p {
+  font-family: 'Caveat', cursive;
+  text-align: center;
+  font: italic 25px arial;
+}
