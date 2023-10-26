@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
 
 * {
     margin: 0;
@@ -25,6 +26,9 @@ body {
 .banner-text {
   text-align: center;
   font: italic 25px arial;
+  top: 0;
+  position: relative;
+  color: white;
 }
 
 .banner-text h1 {
@@ -38,3 +42,150 @@ body {
   text-align: center;
   font: italic 25px arial;
 }
+
+.banner-button {
+  text-align: center;
+  font-size: 25px;
+}
+
+.banner-button a {
+  text-decoration: none;
+  width: 200px;
+  display: inline-block;
+  color: greenyellow;
+  margin-top: 25px;
+  padding: 10px;
+  border: 5px solid greenyellow;
+  margin-left: 10px;
+  font-family: 'Caveat', cursive;
+  text-align: center;
+  font: sans-serif 25px arial;
+}
+
+.banner-button a:hover {
+  background-color: greenyellow;
+  color: black;
+  transition: 0.1s ease-in;
+}
+
+.title {
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  text-align: center;
+  font: sans-serif 25px Arial, sans-serif;
+  margin: 10px;
+  padding: 10px;
+}
+
+.title h4 {
+  margin-top: 10px;
+}
+
+.hitext {
+  text-align: center;
+  font-size: large;
+  font: sans-serif 25px Arial, sans-serif;
+}
+
+.feature-box {
+  display: flex;
+  width: 80%;
+  margin-left: 100px;
+  margin-top: 25px;
+  text-align: center;
+  font-size: 23px;
+}
+
+.feature-text {
+  padding: 25px;
+}
+
+.feature-image {
+  margin-top: 25px;
+}
+
+#feature {
+  background-color: greenyellow;
+}
+
+#impactbio {
+  background-color: white;
+}
+
+#impact {
+  width: 100%;
+  padding: 10px;
+
+}
+
+.impactbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  width: 80%;
+}
+
+.sinpact img {
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+}
+
+.sinpact {
+  flex-basis: 48%;
+  text-align: center;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(red, greenyellow);
+  margin-top: -500px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  opacity: 0;
+}
+.sinpact:hover .overlay {
+opacity: 0.9;
+}
+
+.impactdesc {
+  transition: bottom 1s;
+  margin-top: -40px;
+  position: relative;
+  width: 80%;
+  left: 10%;
+  bottom: 70%;
+  opacity: 0;
+}
+
+.sinpact:hover .impactdesc {
+  bottom: 0;
+  opacity: 1;
+}
+
+.people-row {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.people-col {
+  flex-basis: 28%;
+  padding: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 20px 3px black;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+#People_Related {
+  width: 100%;
+}
+
+.people img {}
